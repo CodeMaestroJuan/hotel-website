@@ -75,6 +75,7 @@ p {
     color: #fff;
     overflow: auto;
 }
+.clr {clear:both}
 
 #navbar a {
     color:#fff
@@ -160,5 +161,12 @@ p {
 }
 
 .box i {
-    margin-bottom: 1opx;
+    margin-bottom: 10px;
+}
+
+#main-footer {
+    text-align: center;
+    background-color: #444;
+    color: #fff;
+    padding: 20px;
 }
