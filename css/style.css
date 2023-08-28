@@ -51,6 +51,20 @@ p {
     background-color: #f4f4f4;
     color: #333;
 }
+
+.bg-dark {
+    background-color: #333;
+    color: #fff;
+}
+.bg-light {
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.bg-primary {
+    color:  #f7c08a;
+    background-color: #333;
+}
 .btn:hover {
     background-color: #f7c08a;
     color: #333;
@@ -93,7 +107,7 @@ p {
 }
 
 #showcase {
-    background: url('/img/showcase.jpg') no-repeat center center/cover;
+    background: url('/img/showcase.jpg'); no-repeat center center/cover;
     height: 600px;
 }
 
@@ -101,6 +115,7 @@ p {
     color: #fff;
     text-align: center;
     padding-top: 170px;
+    padding-bottom: 50px;
 }
 
 #showcase .showcase-content h1 {
@@ -111,4 +126,28 @@ p {
 #showcase .showcase-content p {
     padding-bottom: 20px;
     line-height: 1.7em;
+}
+
+#home-info {
+    height: 400px;
+}
+
+#home-info .info-img {
+    float: left;
+    width: 50%;
+    background: url('/img/photo-1.jpg'); no-repeat;
+    min-height: 100%;
+}
+
+#home-info .info-content {
+    float: right;
+    width: 50%;
+    height: 100%;
+    padding: 50px 30px;
+    text-align: center;
+    overflow: hidden;
+}
+
+#home-info .info-content p {
+    padding-bottom: 30px;
 }
