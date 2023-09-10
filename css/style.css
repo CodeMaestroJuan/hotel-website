@@ -182,16 +182,49 @@ p {
     width: 70%;
     margin: auto;
     display: block;
+    border-radius: 50%;
 }
 
+.l-heading {
+    font-size: 40px;
+}
 #about-info .info-left {
     float: left;
     width: 50%;
     min-height: 100%
 }
+
+#testimonials {
+    height: 600px;
+    background: url('/img/test-bg.jpg') no-repeat center center/cover;
+    padding-top: 100px;
+}
+#testimonials h2 {
+    color: white;
+    text-align: center;
+    padding-bottom: 40px;
+
+}
+#testimonials .testimonials img {
+    width: 100px;
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;
+    opacity: 0.9;
+    display: flex;
+    
+}
+#testimonials .testimonials {
+    margin-bottom: 40px;
+    padding: 20px;
+    border-radius: 5px;
+
+}
+
+
 #main-footer {
     text-align: center;
-    background-color: #444;
+    background: #444;
     color: #fff;
     padding: 20px;
 }
